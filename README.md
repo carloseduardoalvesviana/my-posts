@@ -7,9 +7,9 @@ O projeto serve para demonstrar um pouco do meu conhecimento sobre o framework.
 
 ## Funcionalidades
 
-- [CRUD].
-- [PAGINAÇÃO]
-- [SOFT-DELETE]
+- Criar, Atualizar, Excluir, Exibir.
+- Paginação
+- Soft-delete
 
 ## Licença
 
