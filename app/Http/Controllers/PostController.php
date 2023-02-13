@@ -23,7 +23,7 @@ class PostController extends Controller
         $newPost = new Post($request->only(['title', 'author', 'content']));
         $newPost->save();
 
-        return redirect()->route('home')->with('message', 'Post Created Successfully.');
+        return redirect()->route('home')->with('message', 'Postagem criada com sucesso.');
     }
 
     public function edit($id)
@@ -43,7 +43,7 @@ class PostController extends Controller
         $post = new Post();
         $post = $post->find($id);
         $post = $post->update($request->all());
-        return redirect()->route('home')->with('message', 'Post Successfully Updated');
+        return redirect()->route('home')->with('message', 'Postagem atualizada com sucesso.');
     }
 
     public function show($id)
@@ -58,6 +58,6 @@ class PostController extends Controller
         $post = new Post();
         $post = $post->find($id);
         $post->delete();
-        return redirect()->route('home')->with('message', 'Post Successfully deleted');
+        return redirect()->route('home')->with('message', 'Postagem deletada sucesso.');
     }
 }

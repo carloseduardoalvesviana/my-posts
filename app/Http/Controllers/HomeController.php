@@ -9,7 +9,7 @@ class HomeController extends Controller
     public function __invoke()
     {
         $posts = new Post();
-        $posts = $posts->all();
+        $posts = $posts->paginate(5);
         return view('pages.home.index', compact('posts'));
     }
 }
