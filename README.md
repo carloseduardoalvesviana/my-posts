@@ -1,5 +1,5 @@
 <p align="center"><a href="# target="_blank">
-<img src="./public/images/image.png" width="400" alt="Laravel Logo"></a></p>
+<img src="./public/images/image.png" width="600" alt="Laravel Logo"></a></p>
 
 ## Sobre o projeto
 
